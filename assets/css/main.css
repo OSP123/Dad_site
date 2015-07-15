@@ -11,7 +11,7 @@ body {
   margin: 0 auto;
 }
 
-#lander_text_section {
+.lander_text_section {
 	float: left;
 	margin-left: 3%;
 	width: 21em;
