@@ -5,13 +5,28 @@ body {
 	padding: 0;
 }
 
+.overlay_image_container h2 {
+	text-align: center;
+}
+
+.overlay_image_container a {
+	text-decoration: none;
+	color: rgb(127, 127, 127);
+}
+
+.overlay_image_container a:hover {
+	color: orange;
+}
+
 .larger_text {
 	font-size: 32px;
 }
 
 .top_landing {
-	background-color: white;
 	padding-bottom: 9%;
+  background: url("https://pixabay.com/get/52ec6c831e23c2bed9e6/1437525606/copenhagen-683594_1280.jpg?direct");
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 .header {
@@ -22,6 +37,10 @@ body {
 	float: left;
 	margin-left: 3%;
 	width: 21em;
+	background-color: white;
+  padding: 7px;
+  border-radius: 13px;
+  text-align: center;
 }
 
 .house_logo {
@@ -47,7 +66,7 @@ body {
   padding: 8px 15px;
   text-decoration: none;
   font-weight: bold;
-  color: #555;
+  color: rgb(127, 127, 127);
  	top: 10em;
   border-right: 1px solid #ccc; 
 }
@@ -58,15 +77,10 @@ body {
 }
 
 #mid_landing_images img {
-	  max-width: 19%;
-  	min-width: 310px;
+	width: 330px;
+	height: 220px;
   	margin: 14px auto;
   	display: block
-}
-
-#mid_landing_images #seller {
-	  max-width: 23%;
-  	width: 354px;
 }
 
 #testimonials {
@@ -102,6 +116,10 @@ body {
   vertical-align: -0.4em;
 }
 
+.testimonial_text {
+	overflow:hidden;
+}
+
 .myButton {
 	background-color:#4d4d4d;
 	-moz-border-radius:28px;
@@ -128,7 +146,7 @@ body {
 /* Larger than 600px */
 @media (min-width: 600px) {
 
-	body {
+	#content_div {
 		max-width: 1500px;
   	margin-left: auto;
   	margin-right: auto;
@@ -143,6 +161,12 @@ body {
 		position: relative;
 	  bottom: 71px;
 	  left: 261px;
+	}
+
+	.overlay_image_container  {
+		display: inline-block;
+		max-width: 330px;
+		margin-right: 1%;
 	}
 
 	#mid_landing_images img {
@@ -160,10 +184,6 @@ body {
 		clear: both;
     content: "";
     display: block;
-	}
-
-	.testimonial_text {
-		overflow:hidden;
 	}
 
 	#testimonials {
@@ -188,7 +208,7 @@ body {
 
 	#property_management_section {
 		background-color: grey;
-  	padding: 6%;
+  		padding: 6%;
 	}
 
 	#property_management_section div {
