@@ -1,5 +1,5 @@
 body {
-	background-color: whitesmoke;
+	background-color: white;
 	font-family: MyriadPro-Regular;
 	margin: 0;
 	padding: 0;
@@ -26,7 +26,7 @@ body {
 
 .top_landing {
 	padding-bottom: 9%;
-  background: url("../images/copenhagen.jpg");
+  background: url("../images/blurred_background.jpg");
   background-size: cover;
   background-repeat: no-repeat;
 }
