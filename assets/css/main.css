@@ -32,21 +32,46 @@ body {
   background-attachment: fixed;
 }
 
+#buyer_image:hover {
+	background-image: url("../images/cottage_blur.jpg");
+}
+
+#buyer_image {
+	background-image: url("../images/cottage_retro.jpg");
+}
+
+#seller_image:hover {
+	background-image: url("../images/house_blur.jpg");
+}
+
+#seller_image {
+	background-image: url("../images/house_retro.jpg");
+}
+
+#property_management_image {
+	background-image: url("../images/buildings_retro.jpg");
+}
+
+#property_management_image:hover {
+	background-image: url("../images/buildings_blur.png");
+}
+
 .header {
   margin: 0 auto;
 }
 
 #header_statement {
-	color: gray;
+  color: white;
+  font-size: 1.6em;
 }
 
 .lander_text_section {
-	float: left;
-	margin-left: 11%;
-	width: 21em;
-	background-color: white;
+  width: 80%;
   padding: 7px;
   border-radius: 13px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 1%;
   text-align: center;
 }
 
@@ -74,7 +99,7 @@ body {
   text-decoration: none;
   font-weight: bold;
   color: black;
- 	top: 10em;
+	top: 10em;
   border-right: 1px solid #ccc; 
 }
 
@@ -83,11 +108,14 @@ body {
   background-color: #fff; 
 }
 
-#mid_landing_images img {
+.mid_image_container {
 	width: 330px;
 	height: 220px;
-  	margin: 14px auto;
-  	display: block
+	margin: 14px auto;
+	display: block;
+	background-size:   cover;
+  background-repeat: no-repeat;
+  background-position: center center; 
 }
 
 #testimonials {
@@ -161,13 +189,26 @@ body {
 
 	.constrain {
 		max-width: 1500px;
-  	margin-left: auto;
-  	margin-right: auto;
+		margin-left: auto;
+		margin-right: auto;
 	}
 
 	.top_landing section {
-		max-width: 1000px;
-  	margin: 0 auto;
+		width: 1500px;
+	}
+
+	.center {
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+	#main_header {
+	  font-size: 5em;
+	  margin: 0;
+	  font-family: century Gothic;
+	  font-weight: 100;
+	  color: white;
 	}
 
 	#mid_landing_images {
@@ -182,36 +223,31 @@ body {
 		margin-right: 1%;
 	}
 
-	#mid_landing_images img {
-  	margin: 0;
-  	display: inline;
-	}
-
 	.testimonial {
 		max-width: 100%;
 		background: #f9f9f9;
 		margin-bottom: 30px;
 		padding: 7px 49px 2px 10px;
-  	border-radius: 108px;
+	border-radius: 108px;
 	}
 
 	.testimonial:after {
 		clear: both;
-    content: "";
-    display: block;
+	content: "";
+	display: block;
 	}
 
 	#testimonials {
 		margin: 0 auto;
 	  display: block;
 	  max-width: 100%;
-  	padding: 1px;
+	padding: 1px;
 	}
 
 	#buyers_section {
 		clear: both;
 		background-color: grey;
-  	padding: 6%;
+	padding: 6%;
 	}
 
 	#buyers_section div {
@@ -224,7 +260,7 @@ body {
 
 	#property_management_section {
 		background-color: grey;
-  		padding: 6%;
+		padding: 6%;
 	}
 
 	#property_management_section div {
@@ -237,7 +273,7 @@ body {
 
 	iframe {
 		margin: 0 auto;
-  	display: block;
+	display: block;
 	}
 
 	#contact_form {
@@ -256,8 +292,8 @@ body {
 
 	#buyer_mid_section {
 		max-width: 1000px;
-  		margin-left: auto;
-  		margin-right: auto;
+		margin-left: auto;
+		margin-right: auto;
 	}
 
 }
