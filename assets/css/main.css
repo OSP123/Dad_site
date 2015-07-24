@@ -11,7 +11,7 @@ body {
 
 .overlay_image_container a {
 	text-decoration: none;
-	color: rgb(127, 127, 127);
+	color: white;
 }
 
 .overlay_image_container a:hover {
@@ -30,6 +30,14 @@ body {
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
+}
+
+#main_header {
+  font-size: 5em;
+  margin: 0;
+  font-family: century Gothic;
+  font-weight: 100;
+  color: white;
 }
 
 #buyer_image:hover {
@@ -73,6 +81,11 @@ body {
   margin-right: auto;
   margin-bottom: 1%;
   text-align: center;
+}
+
+.lander_text_section p {
+	color: white;
+  font-size: 1.6em;
 }
 
 .house_logo {
@@ -203,17 +216,9 @@ body {
 		margin-right: auto;
 	}
 
-	#main_header {
-	  font-size: 5em;
-	  margin: 0;
-	  font-family: century Gothic;
-	  font-weight: 100;
-	  color: white;
-	}
-
 	#mid_landing_images {
 		position: relative;
-	  bottom: 71px;
+	  bottom: 141px;
 	  left: 261px;
 	}
 
