@@ -40,28 +40,16 @@ body {
   color: white;
 }
 
-#buyer_image:hover {
-	background-image: url("../images/cottage_blur.jpg");
-}
-
 #buyer_image {
-	background-image: url("../images/cottage_retro.jpg");
-}
-
-#seller_image:hover {
-	background-image: url("../images/house_blur.jpg");
+	background-image: url("../images/house_icon_other.png");
 }
 
 #seller_image {
-	background-image: url("../images/house_retro.jpg");
+	background-image: url("../images/house_icon.png");
 }
 
 #property_management_image {
-	background-image: url("../images/buildings_retro.jpg");
-}
-
-#property_management_image:hover {
-	background-image: url("../images/buildings_blur.png");
+	background-image: url("../images/building.png");
 }
 
 .header {
@@ -126,7 +114,6 @@ body {
 	height: 220px;
 	margin: 14px auto;
 	display: block;
-	background-size:   cover;
   background-repeat: no-repeat;
   background-position: center center; 
 }
